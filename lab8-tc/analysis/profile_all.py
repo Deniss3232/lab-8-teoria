@@ -14,7 +14,7 @@ import time
 from pathlib import Path
 import matplotlib.pyplot as plt
 
-# ✅ Importamos las tres funciones
+#  Importamos las tres funciones
 from problems.p1 import funcion_p1
 from problems.p2 import funcion_p2
 from problems.p3 import funcion_p3
@@ -22,7 +22,7 @@ from problems.p3 import funcion_p3
 OUTDIR = Path("analysis_out")
 OUTDIR.mkdir(exist_ok=True)
 
-# ✅ Solo hasta 10000 para todos
+#  Solo hasta 10000 ya que con lo demas no corre
 NVALS = [1, 10, 100, 1000, 10000]
 
 def medir_tiempo(func, n):
@@ -79,3 +79,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
