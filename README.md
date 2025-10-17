@@ -6,3 +6,6 @@ python -m analysis.profile_all
 
 # 3) para generar el informe 
 python genera_teoria.py
+
+link del video:
+https://youtu.be/iFO5uMK-8uk?si=Xcl2L9yZTAhHqY-c
